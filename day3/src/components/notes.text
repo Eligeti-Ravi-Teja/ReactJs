@@ -1,0 +1,20 @@
+State:
+   A state is a object in that helps to render the dymanically, where you store the data in in form of key value pairs.
+   creating a state in class component:
+            1- Inside the class create a constructor for the class
+            2- inside class create a state using ---- this.state
+            3- To render that data inside the compoent use (this.state.key) or destructure the state
+--------------------------------------------------------------------------------------------------------------------------------------------
+Modifing data inside the state:
+    We will make use of setState method to change state data dynamically in webpage.
+-------------------------------------------------------------------------------------------------------------------------------------------
+this.setState({object},callbcakfunction):
+    {object}:
+        this is the new key value pairs of state
+    Note: 
+        1- setState is asynchronus in nature, It has a delay, if you want to execute code after changing state , write that code inside call back function of setState method
+        2- we cannot directly change the state value by targeting keys
+        3- when you want to update state based on the previous state , pass a function as an argument which has a argument that holds that state of pervious state
+------------------------------------------------------------------------------------------------------------------------
+destructure of props and states
+                                                                                                                   --the end 
