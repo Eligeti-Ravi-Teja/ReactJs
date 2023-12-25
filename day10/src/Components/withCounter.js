@@ -14,7 +14,7 @@ const withCounter=(WrappedComponent,val)=>{
         click=()=>{
            this.setState(prev=>{
             return{
-                count:this.state.count+val
+                count:this.prev.count+val
             }
            })
         }
